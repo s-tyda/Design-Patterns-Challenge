@@ -212,7 +212,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="vGHc92JBFkquovD+UV1R6AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="S9voHBCZ5U6s6zDANDO+0QAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Conrete Subscriber</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">ConcreteSubscriber</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="crmAremY4kKlkWAMgH333QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -306,6 +306,7 @@
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="jXhWq4UUjUyg4ifs/dREIQAA">
 <XPD:ATTR name="Name" type="string">state</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">hX4LOUWcXUuRKY6uqzsUkQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -325,8 +326,9 @@
 <XPD:ATTR name="Name" type="string">update</XPD:ATTR>
 <XPD:REF name="Owner">upmIDtNdZkWP7+lFjEQfuQAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="4OTSuzwbG06oCK8ha8mS/QAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="rxoJ1bjJk0q7NG10N5l2gQAA">
 <XPD:ATTR name="Name" type="string">context</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">VQ6ZW4Q4AECcT1W2gCVNUgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -346,8 +348,8 @@
 <XPD:REF name="Participant">upmIDtNdZkWP7+lFjEQfuQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">gUD/KnCgXkqcHSdBwvxuHgAA</XPD:REF>
-<XPD:REF name="Views[1]">H1yDBFptrE65hcIprJoPlwAA</XPD:REF>
-<XPD:REF name="Views[2]">LB6KeKQvZ0Gc/io/hZOMAwAA</XPD:REF>
+<XPD:REF name="Views[1]">LB6KeKQvZ0Gc/io/hZOMAwAA</XPD:REF>
+<XPD:REF name="Views[2]">H1yDBFptrE65hcIprJoPlwAA</XPD:REF>
 <XPD:REF name="Views[3]">7o+1uGQX30adbELH+jLW6gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="6+BxlROfZ0WCksEUp6R2pgAA">
@@ -356,13 +358,13 @@
 <XPD:REF name="Participant">hX4LOUWcXUuRKY6uqzsUkQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">Ahr8e9w9u0m0UgFb9NdIugAA</XPD:REF>
-<XPD:REF name="Views[1]">cN+hmKvSAUWFHkXG41Z/AgAA</XPD:REF>
-<XPD:REF name="Views[2]">FvB0irbk3kGy58kcvnwPSAAA</XPD:REF>
+<XPD:REF name="Views[1]">FvB0irbk3kGy58kcvnwPSAAA</XPD:REF>
+<XPD:REF name="Views[2]">cN+hmKvSAUWFHkXG41Z/AgAA</XPD:REF>
 <XPD:REF name="Views[3]">USKgBQfbBke89NQf0rOdbAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[3]" type="UMLClass" guid="ALeBveU5UUiM0baCOM1jFwAA">
-<XPD:ATTR name="Name" type="string">Conrete Subscriber</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">ConcreteSubscriber</XPD:ATTR>
 <XPD:REF name="Namespace">VCPgfidHTUK0uyO0sreK/gAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">E2e6auEJ4U2PO+PBxscGMAAA</XPD:REF>
@@ -376,8 +378,9 @@
 <XPD:ATTR name="Name" type="string">update</XPD:ATTR>
 <XPD:REF name="Owner">ALeBveU5UUiM0baCOM1jFwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="sbuhUSMh2kChOj2sgHB5EwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="iwnyd5+CQESakXNCfWKijgAA">
 <XPD:ATTR name="Name" type="string">context</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">HSdKm/QTKkernRa4mNhbbAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
