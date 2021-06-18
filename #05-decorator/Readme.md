@@ -1,0 +1,1 @@
+![](MoodDecorator.jpg)
